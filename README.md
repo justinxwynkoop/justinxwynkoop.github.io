@@ -1,1 +1,3 @@
-# justinxwynkoop.github.io
+# Justin Wynkoop
+
+Portfolio website using HTML, CSS, and Bootstrap.
