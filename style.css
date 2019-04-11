@@ -268,8 +268,8 @@ footer a {
 
 .cs {
 	width:100%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
+	-moz-animation:cs 2s ease-out;
+	-webkit-animation:cs 2s ease-out;
 	background-color: #f674a4;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
 	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
@@ -294,8 +294,8 @@ footer a {
 
 .python {
 	width:65%;
-	-moz-animation:jquery 2s ease-out;
-	-webkit-animation:jquery 2s ease-out;
+	-moz-animation:python 2s ease-out;
+	-webkit-animation:python 2s ease-out;
 	background-color: #a1ce5b;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
 	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -307,8 +307,8 @@ footer a {
 
 .java {
 	width:80%;
-	-moz-animation:wordpress 2s ease-out;
-	-webkit-animation:wordpress 2s ease-out;
+	-moz-animation:java 2s ease-out;
+	-webkit-animation:java 2s ease-out;
 	background-color: #66b3cc;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
 	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -320,8 +320,8 @@ footer a {
 
 .mysql{
   width:80%;
-	-moz-animation:wordpress 2s ease-out;
-	-webkit-animation:wordpress 2s ease-out;
+	-moz-animation:java 2s ease-out;
+	-webkit-animation:java 2s ease-out;
 	background-color: #66b3cc;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#e70f2c), to(#e44250));
 	background-image: -webkit-linear-gradient(top, #e70f2c, #e44250);
@@ -331,15 +331,15 @@ footer a {
 	background-image: linear-gradient(top, #e70f2c, #e44250)
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes cs {0%  { width:0px;} 100%{ width:100%;}  }
 @-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes python      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes java   { 0%  { width:0px;} 100%{ width:80%;}  }
 
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes cs       { 0%  { width:0px;} 100%{ width:100%;}  }
 @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes java   { 0%  { width:0px;} 100%{ width:80%;}  }
 
 
 /*---Firefox Bug Fix --*/
