@@ -266,8 +266,9 @@ footer a {
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
+
 .cs {
-	width:100%; 
+	width:80%; 
 	-moz-animation:cs 2s ease-out;
 	-webkit-animation:cs 2s ease-out;
 	background-color: #f674a4;
@@ -280,7 +281,7 @@ footer a {
 }
 
 .html-css {
-	width:90%;
+	width:85%;
 	-moz-animation:html-css 2s ease-out;
 	-webkit-animation:html-css 2s ease-out;
 	background-color: #f0bb4b;
@@ -293,7 +294,7 @@ footer a {
 }
 
 .python {
-	width:65%;
+	width:60%;
 	-moz-animation:python 2s ease-out;
 	-webkit-animation:python 2s ease-out;
 	background-color: #a1ce5b;
@@ -306,7 +307,7 @@ footer a {
 }
 
 .java {
-	width:80%;
+	width:65%;
 	-moz-animation:java 2s ease-out;
 	-webkit-animation:java 2s ease-out;
 	background-color: #66b3cc;
@@ -319,10 +320,10 @@ footer a {
 }
 
 .mysql{
-  width:80%;
-	-moz-animation:java 2s ease-out;
-	-webkit-animation:java 2s ease-out;
-	background-color: #66b3cc;
+  width: 70%;
+  -moz-animation: mysql 2s ease-out;
+  -webkit-animation: mysql 2s ease-out;
+  background-color: #66b3cc;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#e70f2c), to(#e44250));
 	background-image: -webkit-linear-gradient(top, #e70f2c, #e44250);
 	background-image: -moz-linear-gradient(top, #e70f2c, #e44250);
@@ -331,15 +332,19 @@ footer a {
 	background-image: linear-gradient(top, #e70f2c, #e44250)
 }
 
-@-moz-keyframes cs {0%  { width:0px;} 100%{ width:100%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes python      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes java   { 0%  { width:0px;} 100%{ width:80%;}  }
 
-@-webkit-keyframes cs       { 0%  { width:0px;} 100%{ width:100%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes java   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes cs {0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes python      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes java   { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes mysql   { 0%  { width:0px;} 100%{ width:70%;}  }
+
+
+@-webkit-keyframes cs       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes python      { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes java   { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes mysql   { 0%  { width:0px;} 100%{ width:70%;}  }
 
 
 /*---Firefox Bug Fix --*/
