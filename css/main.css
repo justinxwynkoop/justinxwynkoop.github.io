@@ -95,9 +95,6 @@
   transform: translate3d(0, 0, 0);
 }
 
-/* .menu .nav-item.current>a {
-  color: #a84b4b;
-} */
 
 .menu .nav-link {
   display: inline-block;
@@ -249,9 +246,9 @@ main#home h1 {
 
 
 .about-info .job {
-  background: #515151;
+  background: #f5f4f4;
   padding: 0.5rem;
-  border-bottom: #f80e0e 5px solid;
+  border-bottom: #000 5px solid;
 }
 
 .projects {
@@ -415,7 +412,7 @@ main#home h1 {
 
 .progress-title {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   color: #0a0909;
   text-transform: uppercase;
@@ -424,7 +421,7 @@ main#home h1 {
 
 .progress {
   height: 10px;
-  background: #e9e9ea;
+  background: #020207;
   border-radius: 15px;
   margin-bottom: 30px;
   overflow: visible;
