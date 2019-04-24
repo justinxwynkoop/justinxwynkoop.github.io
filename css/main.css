@@ -223,6 +223,7 @@ main#home h1 {
   margin-top: 20vh;
 }
 
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -242,18 +243,10 @@ main#home h1 {
   font-size: 1.5rem;
 }
 
-
-/* .about-info .job-1 {
-  grid-area: job1;
-} */
-
 .about-info .job-2 {
   grid-area: job2;
 }
 
-/* .about-info .job-3 {
-  grid-area: job3;
-} */
 
 .about-info .job {
   background: #515151;
@@ -396,7 +389,7 @@ main#home h1 {
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -418,6 +411,7 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
 }
+
 
 .progress-title {
   font-size: 18px;
@@ -477,7 +471,7 @@ main#home h1 {
   position: absolute;
   top: -12px;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .progress.orange:before {
