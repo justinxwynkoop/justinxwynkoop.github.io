@@ -453,7 +453,7 @@ main#home h1 {
   border-radius: 15px;
   position: relative;
   -webkit-animation: animate-positive 1s;
-  animation: animate-positive 1s;
+  animation: animate-positive 1.9s;
 }
 
 .progress .progress-value {
