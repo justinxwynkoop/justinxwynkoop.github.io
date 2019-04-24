@@ -257,15 +257,20 @@ main#home h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.projects p {
+  padding-left: 155px;
+}
+
 .projects img {
+  height: 250px;
   width: 100%;
   border: 3px #fff solid;
 }
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #f80e0e;
-  transition: all 0.5s ease-out;
+  border-color: #000;
+  transition: all 1s ease-out;
 }
 
 .boxes {
@@ -310,10 +315,10 @@ main#home h1 {
   color: #000;
 }
 
-.btn-dark {
+/* .btn-dark {
   background: rgba(221, 213, 213, 0.219);
   color: #fff;
-}
+} */
 
 .btn-light {
   background: #c4c4c4;
