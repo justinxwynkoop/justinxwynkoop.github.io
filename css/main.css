@@ -442,7 +442,7 @@ main#home h1 {
 }
 
 .progress:after {
-  border: 1px solid #3030da;
+  border: 1px solid #080808;
   left: auto;
   right: 0;
 }
