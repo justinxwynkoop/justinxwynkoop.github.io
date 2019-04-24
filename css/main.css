@@ -311,7 +311,7 @@ main#home h1 {
 }
 
 .btn-dark {
-  background: black;
+  background: rgba(221, 213, 213, 0.219);
   color: #fff;
 }
 
