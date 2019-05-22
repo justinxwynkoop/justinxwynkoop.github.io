@@ -95,9 +95,6 @@
   transform: translate3d(0, 0, 0);
 }
 
-/* .menu .nav-item.current>a {
-  color: #a84b4b;
-} */
 
 .menu .nav-link {
   display: inline-block;
@@ -223,6 +220,7 @@ main#home h1 {
   margin-top: 20vh;
 }
 
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -242,23 +240,15 @@ main#home h1 {
   font-size: 1.5rem;
 }
 
-
-/* .about-info .job-1 {
-  grid-area: job1;
-} */
-
 .about-info .job-2 {
   grid-area: job2;
 }
 
-/* .about-info .job-3 {
-  grid-area: job3;
-} */
 
 .about-info .job {
-  background: #515151;
+  background: #f5f4f4;
   padding: 0.5rem;
-  border-bottom: #f80e0e 5px solid;
+  border-bottom: #000 5px solid;
 }
 
 .projects {
@@ -267,15 +257,20 @@ main#home h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.projects p {
+  padding-left: 155px;
+}
+
 .projects img {
+  height: 250px;
   width: 100%;
   border: 3px #fff solid;
 }
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #f80e0e;
-  transition: all 0.5s ease-out;
+  border-color: #000;
+  transition: all 1s ease-out;
 }
 
 .boxes {
@@ -320,10 +315,10 @@ main#home h1 {
   color: #000;
 }
 
-.btn-dark {
-  background: black;
+/* .btn-dark {
+  background: rgba(221, 213, 213, 0.219);
   color: #fff;
-}
+} */
 
 .btn-light {
   background: #c4c4c4;
@@ -396,7 +391,7 @@ main#home h1 {
   }
 
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -419,9 +414,10 @@ main#home h1 {
   }
 }
 
+
 .progress-title {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   color: #0a0909;
   text-transform: uppercase;
@@ -430,7 +426,7 @@ main#home h1 {
 
 .progress {
   height: 10px;
-  background: #e9e9ea;
+  background: #020207;
   border-radius: 15px;
   margin-bottom: 30px;
   overflow: visible;
@@ -451,7 +447,7 @@ main#home h1 {
 }
 
 .progress:after {
-  border: 1px solid #3030da;
+  border: 1px solid #080808;
   left: auto;
   right: 0;
 }
@@ -462,7 +458,7 @@ main#home h1 {
   border-radius: 15px;
   position: relative;
   -webkit-animation: animate-positive 1s;
-  animation: animate-positive 1s;
+  animation: animate-positive 1.9s;
 }
 
 .progress .progress-value {
@@ -473,11 +469,11 @@ main#home h1 {
   background: #fff;
   font-size: 17px;
   font-weight: 600;
-  padding-left: 5px;
+  padding-left: 15px;
   position: absolute;
   top: -12px;
   right: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .progress.orange:before {
